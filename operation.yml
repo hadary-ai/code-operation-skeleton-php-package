@@ -1,0 +1,29 @@
+version: 1
+
+title: "Skeleton for a PHP package"
+
+description: "Skeleton for a PHP package"
+
+type: "skeleton"
+
+input:
+  - name: "author_name"
+    description: "Your name"
+  - name: "author_github_username"
+    description: "Your GitHub username"
+  - name: "author_email"
+    description: "Your email address"
+  - name: "author_twitter"
+    description: "Your twitter username"
+  - name: "author_website"
+    description: "Your website"
+  - name: "package_vendor"
+    description: "Package vendor"
+  - name: "package_name"
+    description: "Package name"
+  - name: "package_description"
+    description: "Package very short description"
+
+replace:
+  - file: "*"
+    input: "*"
